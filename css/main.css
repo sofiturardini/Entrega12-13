@@ -1,0 +1,582 @@
+/*=modificacion de fondos contenedores==*/
+body {
+    font-family      : 'Pacifico', cursive;
+    font-family      : 'Roboto', sans-serif;
+    font-size        : 1em;
+    background-color : snow;
+    background-size  : 200px;
+    background-repeat: no-repeat;
+    margin           : 10px;
+    padding          : 10px;
+    /* display       : none; */
+}
+
+.container{
+    overflow: hidden;
+}
+/*=colores a los titulos==*/
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color      : rgb(155, 221, 48);
+    margin-left: 600px;
+
+}
+
+h2 {
+    color      : rgb(12, 12, 12);
+    margin-left: 500px;
+
+}
+
+h3 {
+    color      :  rgb(155, 221, 48);
+    margin-left : 100px;
+
+}
+
+h4 {
+    color      : rgb(12, 12, 12);
+    margin-left: 50px;
+
+}
+
+
+.titulos {
+    color      : rgb(19, 19, 18);
+    font-size  : 40px;
+    margin-left: 40px;
+}
+
+/*==navegador posicionamiento=*/
+.menu {
+    display: flex;
+}
+
+.header {
+    background-color: hotpink;
+    display         : inline;
+}
+
+.logo__img {
+    width: 150px;
+
+}
+
+.nav {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    width          : 80%;
+}
+
+.nav h1 {
+    margin: 0;
+}
+
+.nav ul {
+    display: flex;
+}
+
+
+.nav a {
+    color          : rgb(8, 8, 8);
+    text-decoration: none;
+    margin-right   : 20px;
+    font-family    : 'Lato', sans-serif;
+    font-style     : normal;
+    font-weight    : normal;
+    font-size      : 16px;
+    transition     : .3s;
+
+}
+
+.nav ul li a:hover {
+    background-color: rgb(155, 221, 48);
+    background-color: rgb(209, 230, 203);
+    padding         : 5px;
+    border-radius   : 5px;
+    box-shadow      : 0 0 .5rem rgb(231, 247, 92);
+
+
+}
+
+/*==botones compras y ver mas=*/
+
+.compras ul li {
+    margin-right: 30px;
+    display     : inline;
+
+}
+
+
+.compras a {
+    color           : rgb(10, 10, 10);
+    text-decoration : none;
+    margin-right    : 20px;
+    font-family     : 'Lato', sans-serif;
+    font-style      : normal;
+    font-weight     : normal;
+    font-size       : 16px;
+    padding         : 10px 20px;
+    border-radius   : 10px;
+    box-shadow      : 0 0 .5rem rgb(231, 247, 92);
+    background-color: rgb(209, 230, 203);
+
+}
+
+/*=carpetas==*/
+.links {
+    text-decoration: none;
+}
+
+.links-primary {
+    color: rgb(129, 116, 116);
+}
+
+.links-secondary {
+    color: rgb(129, 116, 116);
+}
+
+/*=fuentes párrafo==*/
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size  : 1em;
+    font-weight: 200;
+    text-align : left;
+}
+
+/*=eliminacion de bullets==*/
+ul li {
+    list-style-type: none;
+}
+
+/* 
+=contenedor caja==
+#quienessomos-about {
+    background-color: rgb(228, 228, 217);
+    height: 30vh;
+    width: 100vw;
+    =borde=
+border        : solid 3px grey;
+=margen interior=
+padding       : 15px;
+padding-right : 10px;
+padding-bottom: 5px;
+padding-left  : 2px;
+=margen externo=
+margin        : 10px 5px 2px 1px;
+} */
+
+
+
+/*==Social bar=*/
+html {
+    font-size: 16px;
+}
+
+.social-bar {
+    position      : fixed;
+    right         : 0;
+    top           : 35%;
+    font-size     : 1.5rem;
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-end;
+    z-index       : 100;
+}
+
+.icon {
+    text-decoration: none;
+    padding        : .7rem;
+    display        : flex;
+    transition     : all .5s;
+}
+
+.facebook__img {
+    width: 30px;
+}
+
+.twitter__img {
+    width: 30px;
+}
+
+.instagram__img {
+    width: 30px;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+
+}
+
+.icon:hover {
+    padding-right   : 3rem;
+    border-radius   : 1rem 0 0 1rem;
+    box-shadow      : 0 0 .5rem rgb(231, 247, 92);
+    background-color: rgb(209, 230, 203);
+}
+
+/*==Section imagenes*/
+.trapeador-container {
+    background-color: rgb(224, 224, 224);
+    padding         : 5px;
+    margin-top: 80px; 
+ }
+
+.contenido-venta {
+    
+    display        : flex;
+    width          : 100%;
+    height         : auto;
+    justify-content: space-around;
+    padding        : 10px;
+   
+}
+
+
+.mopa-container {
+    background-color: rgb(224, 224, 224);
+    padding         : 5px;
+    margin-top: 80px; 
+}
+
+
+.lampazo-container {
+    background-color: rgb(224, 224, 224);
+    padding         : 5px;
+    margin          : 0;
+    align-items: flex-start;
+   
+}
+
+
+.lampazo-img {
+    width : 300px;
+    height: 300px;
+    
+}
+
+.mopa-img {
+    width : 300px;
+    height: 300px;
+}
+
+.titulos-ventas {
+    margin : 0;
+    padding: 10px;
+}
+
+.escurridor-container {
+    background-color: rgb(224, 224, 224);
+    padding         : 5px;
+    margin-top: 80px; 
+}
+
+.compra-btn {
+    display        : flex;
+    justify-content: space-around;
+    align-items    : center;
+    padding        : 0;
+}
+
+.compra-btn li {
+    box-shadow      : 0 0 .5rem rgb(231, 247, 92);
+    background-color: rgb(209, 230, 203);
+    margin         : 0;
+    width          : 120px;
+    height         : 30px;
+    text-align     : center;
+    display        : flex;
+    justify-content: center;
+
+}
+
+.compra-btn a {
+    text-decoration: none;
+    color          : rgb(8, 8, 8);
+    align-self     : center;
+}
+
+.aspiradora-container {
+    background-color: rgb(224, 224, 224);
+    display         : flex;
+    flex-direction  : row-reverse;
+    align-content   : center;
+    align-items     : center;
+    margin-top: 20px;
+    
+}
+
+.aspiradora-img {
+    width: 75%;
+}
+
+.publicidad-container {
+    background-color   : rgb(224, 224, 224);
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-image   : url(../public/img/publicidad\ .PNG);
+    background-size    : 100%;
+    height             : 250px;
+    padding-top        : 00px;
+    
+}
+.publicidad2-container {
+    background-color   : rgb(224, 224, 224);
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-image   : url(../public/img/publicidad\ 3.PNG);
+    background-size    : 100%;
+    height             : 250px;
+    padding-top        : 100px;
+}
+
+.aspiradora2-container {
+    background-color: rgb(224, 224, 224);
+    display         : flex;
+    flex-direction  : row-reverse;
+    align-content   : center;
+    align-items     : center;
+}
+
+.aspiradora2-img {
+    width: 75%;
+}
+
+
+.aspiradora3-container {
+    background-color: rgb(224, 224, 224);
+    display         : flex;
+    flex-direction  : row-reverse;
+    align-content   : center;
+    align-items     : center;
+}
+
+.aspiradora3-img {
+    width: 75%;
+
+}
+
+#aprovecha {
+    background-color: rgb(224, 224, 224);
+    height          : 100px;
+    /*===*/
+    border-style    : line;
+    margin-top: 80px;
+    /*===*/
+    /*padding: ; */
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    /*===*/
+    /*margin    : 1o px, 5px, 2px*/
+}
+
+
+/*=Sección wraper==*/
+
+.wraper-container {
+    margin-left: 30px;
+}
+
+    .wraper-container div {
+        padding         : 1px;
+        background-color: rgb(224, 224, 224)
+    }
+    
+    .wraper-container ul {
+        display        : flex;
+        flex-direction : row;
+        align-content  : center;
+        align-items    : center;
+        width          : 100%;
+        justify-content: space-around;
+    }
+    
+    .wraper-container ul li {
+        display    : flex;
+        align-items: center;
+    
+    }
+    
+    .wraper-container a {
+        color          : rgb(12, 12, 12);
+        margin-right   : 10px;
+        text-decoration: none;
+        font-style     : normal;
+        font-size      : 15px;
+        padding-left   : 5px;
+    
+    }
+    
+    .wraper__img {
+        width: 30px;
+    
+    }
+    
+    .wraper__img {
+        width: 30px;
+    
+
+}
+
+
+/*==Líneas efecto=*/
+h3 {
+    display    : inline-block;
+    position   : relative;
+    margin-left: 560px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+}
+
+h3::after,
+h3::before {
+    content         : '';
+    position        : absolute;
+    width           : 120px;
+    height          : 1px;
+    background-color: black;
+    top             : 0.6em;
+    transform       : scale(0);
+    transition      : all 0.4s ease-in;
+    
+}
+
+h3:hover::before,
+h3:hover::after {
+    transform: scale(1);
+
+}
+
+h3::before {
+    left: -140px;
+
+}
+
+h3::after {
+    right: -140px;
+
+}
+
+
+
+/*Sección de unite a nosotros*/
+.gallery-container {
+    
+    display              : grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-auto-rows       : 150px;
+    padding              : 10px;
+    grid-gap             : 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallery__img {
+    
+    width     : 20%;
+    height    : 300%;
+    object-fit: cover;
+    justify-content: center;
+  
+    
+}
+.galleryexpress-container {
+    
+    display              : grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-auto-rows       : 150px;
+    padding              : 50px;
+    grid-gap             : 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.galleryexpress__img {
+    
+    width     : 20%;
+    height    : 300%;
+    object-fit: cover;
+    justify-content: center;
+  
+    
+}
+
+.imagen1 {
+    width     : 100%;
+    height    : 90%;
+}
+
+
+.imagen1:hover {filter: opacity(.5);}
+
+
+/*Sección de carrusel*/
+* {
+    margin-top: 0px; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.subtitulo {
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.tipo { 
+    color: #fff;
+    margin: 7px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 60%;
+    height: 2px;
+    background-color: #080808;
+    margin:0;
+}
+
+.carousel {
+    min-height: 500px;
+}
+.carousel .carousel-item {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select:   none;   
+    width: 500px;
+    height: 500px;
+}
+
+.carousel .carousel-item img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    border-radius: 15px;
+}
+
