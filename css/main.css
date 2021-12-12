@@ -3,7 +3,7 @@ body {
     font-family      : 'Pacifico', cursive;
     font-family      : 'Roboto', sans-serif;
     font-size        : 1em;
-    background-color : snow;
+   
     background-size  : 200px;
     background-repeat: no-repeat;
     margin           : 10px;
@@ -60,10 +60,7 @@ h4 {
     display         : inline;
 }
 
-.logo__img {
-    width: 150px;
 
-}
 
 .nav {
     display        : flex;
@@ -232,15 +229,7 @@ html {
     margin-top: 80px; 
  }
 
-.contenido-venta {
-    
-    display        : flex;
-    width          : 100%;
-    height         : auto;
-    justify-content: space-around;
-    padding        : 10px;
-   
-}
+
 
 
 .mopa-container {
@@ -580,3 +569,113 @@ h3::after {
     border-radius: 15px;
 }
 
+/*Media queries*/
+ 
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+@media only screen and (max-width:600px){
+
+    body {
+    
+        background-color : rgb(38, 77, 207);
+        
+    }
+    .contenido-venta {
+    
+        display        : flex;
+        flex-flow: column nowrap;
+        width          : 100%;
+        height         : auto;
+        justify-content: space-around;
+        padding        : 20px;
+       
+    }
+
+    .aspiradora-container{
+        display: flex;
+        flex-flow: column nowrap;
+}
+    .aspiradora2-container{
+    display: flex;
+    flex-flow: column nowrap;
+
+}   .aspiradora3-container{
+    display: flex;
+    flex-flow: column nowrap;
+}
+}
+
+
+
+@media only screen and (min-width:601px) and (max-width:1200px){
+
+    body {
+    
+        background-color : rgb(51, 102, 66);
+        
+    }
+    
+   
+}/*Llave de media querie 600*/
+
+@media only screen and (min-width:1201px){
+
+    body {
+
+    background-color : rgb(10, 10, 10);
+    
+    }
+
+
+.nav-item{
+    margin-right: 70px;
+    position: relative;
+}
+
+.logo__img{
+    width: 60px;
+}
+
+.nav-item a::after{
+    content: "";
+    background-color: rgb(160, 23, 23);
+    position: absolute;
+    left: 0;
+    top: 80%;
+    width: 100%;
+    height: 4px;
+    opacity: 0;
+}
+ 
+.nav-item a.selected::after,
+.nav-item a:hover::after{
+    opacity: 1;
+
+}
+.contenido-venta {
+    
+    display        : flex;
+    flex-flow: row nowrap;
+    width          : 100%;
+    height         : auto;
+    justify-content: space-around;
+    padding        : 20px;
+   
+}
+.aspiradora-container{
+    display: flex;
+    flex-flow:row nowrap;
+}
+.aspiradora2-container{
+display: flex;
+flex-flow: row nowrap;
+
+}   .aspiradora3-container{
+display: flex;
+flex-flow: row nowrap;
+}
+}
